@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center">
+
+  <EditText
+    android:id="@+id/login_username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:layout_marginVertical="@dimen/dimension_medium"
+    android:autofillHints="username,emailAddress"
+    android:hint="@string/login_username"
+    android:inputType="textEmailAddress"
+    android:textColor="@color/vivyGrey" />
+
+  <EditText
+    android:id="@+id/login_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:layout_marginVertical="@dimen/dimension_medium"
+    android:autofillHints="password"
+    android:inputType="textPassword"
+    android:hint="@string/login_password"
+    android:textColor="@color/vivyGrey" />
+
+  <ProgressBar
+    android:id="@+id/login_progress_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="invisible"
+    tools:visibility="visible" />
+
+  <TextView
+    android:id="@+id/login_error"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:layout_marginVertical="@dimen/dimension_medium"
+    android:textColor="@color/vivyRed"
+    android:gravity="center"
+    android:visibility="invisible"
+    tools:text="some error happened" />
+
+  <Button
+    android:id="@+id/login_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:layout_marginVertical="@dimen/dimension_medium"
+    android:text="@string/login_button" />
+
+</LinearLayout>

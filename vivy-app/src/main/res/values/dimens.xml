@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="layout_large">48dp</dimen>
+  <dimen name="layout_small">24dp</dimen>
+
+  <dimen name="dimension_large">16dp</dimen>
+  <dimen name="dimension_medium">8dp</dimen>
+  <dimen name="dimension_small">4dp</dimen>
+
+  <dimen name="text_xlarge">18sp</dimen>
+  <dimen name="text_large">14sp</dimen>
+  <dimen name="text_medium">12sp</dimen>
+  <dimen name="text_small">8sp</dimen>
+</resources>

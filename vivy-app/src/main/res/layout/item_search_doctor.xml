@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingVertical="@dimen/dimension_medium">
+
+  <ImageView
+    android:id="@+id/search_doctor_item_picture"
+    android:layout_width="@dimen/layout_large"
+    android:layout_height="@dimen/layout_large"
+    android:contentDescription="@string/search_doctor_image_description_doctor"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:src="@drawable/ic_profile_placeholder" />
+
+  <TextView
+    android:id="@+id/search_doctor_item_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:textColor="@color/vivyGrey"
+    android:textSize="@dimen/text_large"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/search_doctor_item_address"
+    app:layout_constraintStart_toEndOf="@id/search_doctor_item_picture"
+    tools:text="Dr. Juanito Something" />
+
+  <TextView
+    android:id="@+id/search_doctor_item_address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/dimension_large"
+    android:layout_marginVertical="@dimen/dimension_small"
+    android:textColor="@color/vivyGrey"
+    android:textSize="@dimen/text_medium"
+    app:layout_constraintTop_toBottomOf="@id/search_doctor_item_name"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toEndOf="@id/search_doctor_item_picture"
+    tools:text="Kopenickestr. 10, 12345, Berlin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

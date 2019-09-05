@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">vivy</string>
+
+  <string name="login_button">Login</string>
+  <string name="login_error">Something went wrong</string>
+  <string name="login_password">Password</string>
+  <string name="login_username">Username</string>
+
+  <string name="permissions_message">Location permissions are required to better filter your search results.</string>
+  <string name="permissions_grant">Grant permissions</string>
+  <string name="permissions_ignore">Continue without location</string>
+
+  <string name="search_doctor_error">There was an error</string>
+  <string name="search_doctor_exception">There was an exception</string>
+  <string name="search_doctor_hint">Start typing to search…</string>
+  <string name="search_doctor_no_results">No results were found</string>
+  <string name="search_doctor_image_description_doctor">Doctor profile picture</string>
+  <string name="search_doctor_image_description_clear">Clear input</string>
+
+</resources>
