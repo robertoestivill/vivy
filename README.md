@@ -30,3 +30,4 @@ private const val HTTP_BASIC_AUTH_PASSWORD = "REDACTED"
   - Location details view is just for debug and make sure GPS works correctly
   - Pagination implemented with ScrollListener
   - Takes care of starting the LocationListener
+  
